@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  db:
+    image: mariadb
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MARIADB_ROOT_PASSWORD: password
+      MARIADB_DATABASE: snippetbox
+    volumes:
+      - ./db-data/mariadb/:/var/lib/mysql
