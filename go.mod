@@ -12,4 +12,4 @@ require (
 	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
 )
 
-require github.com/justinas/nosurf v1.1.1 // indirect
+require github.com/justinas/nosurf v1.1.1
